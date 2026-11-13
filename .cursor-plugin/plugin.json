@@ -1,0 +1,9 @@
+{
+  "name": "osmo",
+  "description": "OsmO Phone Calls: AI makes real phone calls for you and answers your calls. Free to start in the US, Canada, UK and Australia. Sign in with your phone number; no API key.",
+  "version": "1.0.0",
+  "author": { "name": "OsmO AI", "url": "https://getosmo.app" },
+  "homepage": "https://getosmo.app",
+  "license": "MIT",
+  "logo": "assets/logo.png"
+}

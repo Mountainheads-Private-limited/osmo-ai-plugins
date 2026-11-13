@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "osmo": {
+      "url": "https://api.getosmo.app/mcp"
+    }
+  }
+}
