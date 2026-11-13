@@ -1,11 +1,11 @@
 ---
 name: osmo-phone-calls
-description: Use when the user wants an AI to place a real phone call for them — call a shop, clinic, restaurant, helpline or a person they know, ask a question, book or confirm something, and bring back the answer with a summary. Also use to see who called the user's OsmO number, what they wanted, and to change OsmO call screening rules. Free to start in the US, Canada, UK and Australia. Not for SMS or email.
-version: 1.0.0
+description: AI phone call skill. Use when the user wants an AI to make a real phone call for them — call a business, shop, clinic, restaurant, helpline or a person they know; book, reschedule or cancel an appointment or reservation; reach customer service and get through the phone menu; ask a question and bring back the answer with a summary. Also use to see who called the user's OsmO number, what they wanted, and to change OsmO call screening rules. Free to start in the US, Canada, UK and Australia. Not for SMS or email.
+version: 1.0.1
 metadata: {"openclaw":{"homepage":"https://getosmo.app","emoji":"📞"}}
 ---
 
-# OsmO Phone Calls
+# OsmO AI Phone Call
 
 OsmO's AI makes phone calls for the user and answers calls to their own number. This skill uses
 the hosted OsmO MCP server. There is no API key: the user signs in once with their phone number.
