@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Account, billing or call problem
+    url: https://getosmo.app/support.html
+    about: For your OsmO account, credits or a specific call, contact OsmO support (team@getosmo.app).

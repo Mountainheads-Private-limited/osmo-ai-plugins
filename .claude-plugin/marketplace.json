@@ -1,0 +1,26 @@
+{
+  "name": "osmo",
+  "description": "OsmO AI's plugin marketplace: OsmO Phone Calls.",
+  "owner": {
+    "name": "OsmO AI",
+    "email": "team@getosmo.app",
+    "url": "https://getosmo.app"
+  },
+  "plugins": [
+    {
+      "name": "osmo",
+      "displayName": "OsmO Phone Calls",
+      "source": "./",
+      "description": "OsmO's AI makes real phone calls for you and brings back the summary and transcript. Every call is confirmed by you first. Sign in with your phone number; no API key.",
+      "author": {
+        "name": "OsmO AI",
+        "url": "https://getosmo.app"
+      },
+      "homepage": "https://getosmo.app/for-my-ai",
+      "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+      "license": "MIT",
+      "keywords": ["phone", "phone-calls", "voice", "telephony", "booking", "appointments"],
+      "category": "productivity"
+    }
+  ]
+}

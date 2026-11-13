@@ -1,0 +1,34 @@
+name: Setup or sign-in problem
+description: A client config, install command or sign-in step that doesn't work
+labels: ["setup"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please **redact** phone numbers, one-time codes, access tokens, call transcripts and recording links before posting.
+        For anything security-sensitive, email team@getosmo.app instead (see SECURITY.md).
+  - type: input
+    id: client
+    attributes:
+      label: AI app and version
+      placeholder: e.g. Claude Code 2.1.311, Cursor 3.2, Gemini CLI 0.40
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: How you connected
+      options:
+        - Plugin / extension from this repo
+        - MCP config or CLI command (server URL)
+        - App directory (ChatGPT, Claude, Grok, …)
+        - Skill only (ClawHub, skills folder)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you ran and what happened
+      description: Exact command or config, and the error text.
+    validations:
+      required: true
