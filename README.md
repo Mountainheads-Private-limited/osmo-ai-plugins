@@ -93,6 +93,7 @@ The "Guide" column links to OsmO's own step-by-step page for that app.
 | **VS Code** (GitHub Copilot) | Click **Install in VS Code** above, or run **MCP: Add Server** and choose HTTP, or add the JSON [below](#vs-code) | [guide](https://getosmo.app/ai-calls/copilot-phone-calls-setup) |
 | **Codex** (CLI, IDE) | `codex mcp add osmo --url https://api.getosmo.app/mcp`, then `codex mcp login osmo`. Or the plugin, [below](#codex-plugin) | [guide](https://getosmo.app/ai-calls/codex-phone-calls-setup) |
 | **Gemini CLI** | `gemini extensions install https://github.com/Mountainheads-Private-limited/osmo-ai-plugins`, then `/mcp auth osmo` | [guide](https://getosmo.app/ai-calls/gemini-phone-calls-setup) |
+| **Antigravity** | Install the plugin from this repo (`.antigravity-plugin/`, [`mcp_config.json`](mcp_config.json)), then **Customizations › Installed › Authenticate** under MCP Servers | — |
 | **Grok** (grok.com) | grok.com/connectors → New Connector → Custom → URL `https://api.getosmo.app/mcp` | [guide](https://getosmo.app/ai-calls/grok-phone-calls-setup) |
 | **Grok Build** | `grok mcp add --transport http osmo https://api.getosmo.app/mcp` | [guide](https://getosmo.app/ai-calls/grok-build-phone-calls-setup) |
 | **Perplexity** (Pro, Max, Enterprise) | Plugins → Add custom → Add MCP connector → Remote → URL `https://api.getosmo.app/mcp` | [guide](https://getosmo.app/ai-calls/perplexity-phone-calls-setup) |
@@ -306,6 +307,7 @@ service; its code is not in this repo.
 | [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json) | Codex plugin (MCP server + skill) |
 | [`.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json), [`mcp.json`](mcp.json) | Cursor plugin and MCP config |
 | [`gemini-extension.json`](gemini-extension.json), [`GEMINI.md`](GEMINI.md) | Gemini CLI extension |
+| [`.antigravity-plugin/plugin.json`](.antigravity-plugin/plugin.json), [`mcp_config.json`](mcp_config.json) | Antigravity plugin |
 | [`llms-install.md`](llms-install.md) | Install steps written for AI agents (Cline and others) |
 | [`server.json`](server.json) | Official MCP Registry metadata (`app.getosmo/phone-calls`) |
 

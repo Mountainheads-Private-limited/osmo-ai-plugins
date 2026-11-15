@@ -1,6 +1,6 @@
 {
   "name": "osmo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "OsmO Phone Calls: AI makes real phone calls to businesses for you. Every call is confirmed by you first. 50 free credits in the US, Canada, UK and Australia call businesses and toll-free numbers; contacts, scheduling and call screening need an OsmO app plan.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {

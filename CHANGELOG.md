@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- Antigravity plugin (`.antigravity-plugin/plugin.json`, `mcp_config.json`). Sign-in uses OAuth client metadata documents, so no client id is needed.
+- Skill 1.0.3: the description now starts "Make phone calls with AI".
+
 ## 1.1.0
 
 - Claude Code plugin and marketplace (`.claude-plugin/`): `/plugin marketplace add Mountainheads-Private-limited/osmo-ai-plugins`.

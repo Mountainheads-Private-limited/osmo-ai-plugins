@@ -1,0 +1,18 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "osmo",
+  "displayName": "OsmO Phone Calls",
+  "version": "1.2.0",
+  "description": "Make phone calls with AI: OsmO calls businesses for you, talks naturally and brings back the answer. Every call is confirmed by you first.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Call the pharmacy on Main Street and ask if they're open until 9",
+    "Find my airline's customer-care number and ask about my refund",
+    "What did I miss on my phone today?"
+  ],
+  "author": { "name": "OsmO AI", "url": "https://getosmo.app" },
+  "homepage": "https://getosmo.app/for-my-ai",
+  "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+  "license": "MIT",
+  "keywords": ["osmo", "phone-calls", "ai-phone-call", "voice", "booking"]
+}
