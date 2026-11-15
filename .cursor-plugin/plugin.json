@@ -1,7 +1,7 @@
 {
   "name": "osmo",
   "displayName": "OsmO Phone Calls",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "OsmO Phone Calls: AI makes real phone calls to businesses for you. Every call is confirmed by you first. 50 free credits in the US, Canada, UK and Australia call businesses and toll-free numbers; contacts, scheduling and call screening need an OsmO app plan.",
   "author": {
     "name": "OsmO AI",
@@ -16,7 +16,9 @@
     "voice",
     "telephony",
     "booking",
-    "appointments"
+    "appointments",
+    "ai-receptionist",
+    "answering-service"
   ],
   "logo": "assets/logo.png",
   "skills": "./skills/"

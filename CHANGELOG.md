@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0
+
+- New skill `osmo-ai-receptionist`: run your OsmO AI phone receptionist from your AI app (missed calls, greeting, caller rules, bookings).
+- Receptionist keywords in every plugin manifest.
+
 ## 1.2.0
 
 - Antigravity plugin (`.antigravity-plugin/plugin.json`, `mcp_config.json`). Sign-in uses OAuth client metadata documents, so no client id is needed.

@@ -303,6 +303,7 @@ service; its code is not in this repo.
 | Path | For |
 |---|---|
 | [`skills/osmo-phone-calls/SKILL.md`](skills/osmo-phone-calls/SKILL.md) | Agent Skill. Tells the AI to confirm before calling, report only what the call result says, and never ask for codes. Published on [ClawHub](https://clawhub.ai/getosmo/osmo-phone-calls). |
+| [`skills/osmo-ai-receptionist/SKILL.md`](skills/osmo-ai-receptionist/SKILL.md) | Agent Skill for the AI receptionist side: who called, greeting, caller rules, bookings. Changes are shown first and applied on a yes. Published on [ClawHub](https://clawhub.ai/getosmo/osmo-ai-receptionist). |
 | [`.claude-plugin/`](.claude-plugin) | Claude Code plugin + marketplace (MCP server + skill) |
 | [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json) | Codex plugin (MCP server + skill) |
 | [`.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json), [`mcp.json`](mcp.json) | Cursor plugin and MCP config |

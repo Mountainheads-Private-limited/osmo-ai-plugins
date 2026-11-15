@@ -1,7 +1,7 @@
 {
   "name": "osmo",
   "displayName": "OsmO Phone Calls",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "OsmO's AI makes real phone calls for you: call a business or helpline, then get the summary and transcript. Every call is confirmed by you first. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia: with free credits, OsmO calls businesses and toll-free numbers; calling your contacts and scheduling calls need an OsmO app plan.",
   "author": {
     "name": "OsmO AI",
@@ -20,7 +20,9 @@
     "mcp",
     "booking",
     "appointments",
-    "customer-service"
+    "customer-service",
+    "ai-receptionist",
+    "answering-service"
   ],
   "icon": "./assets/logo.png",
   "documentationUrl": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins#readme",
