@@ -1,7 +1,7 @@
 ---
 name: osmo-ai-receptionist
-description: AI receptionist for your phone number. Use when the user wants an AI phone receptionist or answering service that picks up their calls, screens spam, takes messages and booking requests, and tells them who called and why. Manage it from the AI app: see missed calls and summaries, open a call, change the greeting, add rules for specific callers (put through, take a message, block), and check bookings. Works with the user's existing mobile number through call forwarding. Needs an OsmO app plan.
-version: 1.0.0
+description: AI receptionist and AI phone receptionist for your phone number. Use when the user wants an AI phone receptionist or answering service that picks up their calls, screens spam, takes messages and booking requests, and tells them who called and why. Manage it from the AI app: see missed calls and summaries, open a call, change the greeting, add rules for specific callers (put through, take a message, block), and check bookings. Works with the user's existing mobile number through call forwarding. Needs an OsmO app plan.
+version: 1.0.1
 metadata: {"openclaw":{"homepage":"https://getosmo.app","emoji":"☎️"}}
 ---
 
