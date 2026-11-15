@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.getosmo/phone-calls",
   "title": "OsmO Phone Calls",
-  "description": "AI calls businesses for you and returns a summary. Free credits in US, Canada, UK, Australia.",
-  "version": "1.1.0",
+  "description": "AI phone calls + AI receptionist: calls businesses for you and answers your calls. US/CA/UK/AU.",
+  "version": "1.3.0",
   "websiteUrl": "https://getosmo.app/for-my-ai",
   "repository": {
     "url": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
