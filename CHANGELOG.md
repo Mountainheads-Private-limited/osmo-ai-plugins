@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0
+
+- Every manifest describes all 27 tools of MCP release 11: calls (up to 5 numbers, scheduling, recordings, call-backs) and the AI receptionist (pause the AI, put-through, VIP and block lists, caller rules, assistant language, bookings, Facts, connections).
+- Skill `osmo-phone-calls` 1.1.0: how to find numbers, call contacts and recent callers, schedule and cancel calls, open recordings and app chats, and read the account status.
+- Skill `osmo-ai-receptionist` 1.1.0: removed the greeting claim (the greeting, names and voice are changed in the OsmO app); added pause AI, VIP and block lists, assistant and language, Facts, connections, recordings, tagging people in rules, upcoming and past bookings.
+- `GEMINI.md` now covers the receptionist too.
+
 ## 1.3.0
 
 - New skill `osmo-ai-receptionist`: run your OsmO AI phone receptionist from your AI app (missed calls, greeting, caller rules, bookings).

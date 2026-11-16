@@ -2,7 +2,9 @@
 
 OsmO Phone Calls is a hosted remote MCP server. There is nothing to clone, build or run. Your client
 connects to `https://api.getosmo.app/mcp` over Streamable HTTP. Then OsmO's voice AI can place real
-phone calls for the user and read back the outcome, summary and transcript.
+phone calls for the user and read back the outcome, summary, transcript and recording link, and
+the user can run their OsmO AI phone receptionist (who called, pause the AI, put-through, VIP and block
+lists, caller rules, bookings).
 
 ## 1. Add the server
 
@@ -40,7 +42,8 @@ Call `osmo_help`. It is read-only and places no call. It lists what this account
 
 ## Notes
 
-- With free credits, OsmO calls businesses and toll-free numbers; calling your contacts and scheduling calls need an OsmO app plan. It does not call emergency services, send text messages or send email.
+- With free credits, OsmO calls businesses and toll-free numbers; calling your contacts, calling back callers, scheduling calls and the AI receptionist need an OsmO app plan. It does not call emergency services, send text messages or send email.
 - An answered call uses 3 credits; an unanswered call is free.
-- Follow [`skills/osmo-phone-calls/SKILL.md`](skills/osmo-phone-calls/SKILL.md) for how to use the
+- Follow [`skills/osmo-phone-calls/SKILL.md`](skills/osmo-phone-calls/SKILL.md) and
+  [`skills/osmo-ai-receptionist/SKILL.md`](skills/osmo-ai-receptionist/SKILL.md) for how to use the
   tools. Network details: [README, Authentication and network](README.md#authentication-and-network).
