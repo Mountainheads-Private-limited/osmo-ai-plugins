@@ -11,7 +11,7 @@
       "name": "osmo",
       "displayName": "OsmO Phone Calls",
       "source": "./",
-      "description": "OsmO's AI makes real phone calls for you and answers your calls as your AI phone receptionist. Call businesses and helplines, get the summary, transcript and recording; see who called, manage caller rules, VIP and block lists and bookings. Every call is confirmed by you first. Sign in with your phone number; no API key.",
+      "description": "OsmO's AI makes real phone calls for you and answers your calls as your AI phone receptionist. Call businesses and helplines, follow each call on a live call card (in apps that show cards) and get the summary, transcript and recording, with Call again or Schedule; see who called, manage caller rules, VIP and block lists and bookings. Every call is confirmed by you first. Sign in with your phone number; no API key.",
       "author": {
         "name": "OsmO AI",
         "url": "https://getosmo.app"

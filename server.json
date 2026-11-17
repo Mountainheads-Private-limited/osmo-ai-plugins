@@ -3,7 +3,7 @@
   "name": "app.getosmo/phone-calls",
   "title": "OsmO Phone Calls",
   "description": "AI phone calls + AI receptionist: calls businesses for you and answers your calls. US/CA/UK/AU.",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "websiteUrl": "https://getosmo.app/for-my-ai",
   "repository": {
     "url": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",

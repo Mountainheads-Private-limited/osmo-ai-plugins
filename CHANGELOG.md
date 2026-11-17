@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5.0
+
+- Describes MCP release 12: a live call card in AI apps that show MCP Apps cards (such as Claude) — Confirm, the call's progress, summary, recording player, Call again / Schedule; up to 5 calls placed together in one card.
+- Scheduled calls in your own time zone: wall-clock time plus an IANA `timeZone` (daylight-saving safe); `list_scheduled_calls` shows local times.
+- After a call, a ready result can offer to call again now or later with the same words (`callAgain`).
+- In Claude and ChatGPT a status check waits for a short call to finish, so the result comes back in the same turn.
+- A confirmed call is placed once (`confirmKey`; a repeat answers `already_placed`).
+- Skill `osmo-phone-calls` 1.2.0 and `GEMINI.md`: confirmKey, call card, call-again offer and time-zone steps.
+- Skill `osmo-ai-receptionist` 1.2.0: call-backs at a time in your own time zone, shown on the call card where the app supports cards.
+
 ## 1.4.0
 
 - Every manifest describes all 27 tools of MCP release 11: calls (up to 5 numbers, scheduling, recordings, call-backs) and the AI receptionist (pause the AI, put-through, VIP and block lists, caller rules, assistant language, bookings, Facts, connections).

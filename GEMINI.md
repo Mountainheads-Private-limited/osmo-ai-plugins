@@ -38,14 +38,27 @@ in chat.
 3. **Before any call:** state who will be called (name and number) and exactly what OsmO will say
    or ask. Place the call only after the user says yes. A call reaches a real person.
    `place_call` without `confirmed: true` returns that preview and dials nothing; send
-   `confirmed: true` with the same arguments only after the yes. `reason` (what OsmO says the
+   `confirmed: true` with the same arguments only after the yes, plus the `confirmKey` the
+   preview returned when it returns one. A confirmed call is placed once, even if the request is
+   sent twice (a repeat answers `already_placed` with the same callId). `reason` (what OsmO says the
    call is for) is at most 300 characters; `context` (names, booking numbers, questions it uses
    without reading out) at most 700. Up to 5 numbers go in one request as `recipients`.
 4. After placing a call, follow it with `get_call_status` until `resultState` is `ready`, waiting
    about `pollAfterSeconds` between checks, then report the outcome and summary.
+   In some apps (Claude, ChatGPT) a status check itself waits for the call to end, so a short
+   call's result can come back in the same turn. In apps that show MCP Apps cards (such as
+   Claude), `place_call` and `get_call_status` also open a live OsmO call card: Confirm, the call's
+   progress (placed, in call, ended), the summary, a recording player, and Call again / Schedule
+   buttons; up to 5 calls placed together show as one card with a row per person.
    Do not claim something was done on the call unless the result says so.
-5. **Calls for later** (OsmO app plan): pass `scheduledAt` (ISO 8601 with the user's UTC offset,
-   at least 2 minutes ahead) to `place_call`. `list_scheduled_calls` shows calls not yet placed;
+   A ready result for a call OsmO made can carry `purposeMet`, a `nextStep` and `callAgain`
+   (the same number and words): when the call did not get what was needed, offer to call again
+   now or at a set time, and place it with `callAgain`'s values only after a yes.
+5. **Calls for later** (OsmO app plan): pass `scheduledAt` to `place_call`, at least 2 minutes
+   ahead: either the user's wall-clock time plus their IANA `timeZone` (e.g. `"2026-11-20T09:30"`
+   and `"America/New_York"`, safe across daylight-saving changes) or ISO 8601 with an offset. If
+   the answer is `time_zone_check`, ask the user which time they meant and send that choice.
+   `list_scheduled_calls` shows calls not yet placed, each in the user's own local time;
    `cancel_scheduled_call` calls one off (preview first, then `confirmed: true` on a yes).
 6. **Past calls:** `list_calls` (10 per page, newest first; `callType` for inbound or outbound,
    `cursor` for older pages). `get_call` opens one call: summary, transcript and a ▶ Play
