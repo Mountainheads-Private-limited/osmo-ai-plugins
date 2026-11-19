@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.0
+
+- Three new skills, one job each, on the same OsmO MCP server and sign-in:
+  - `osmo-call-screening`: screen calls to your own number (spam calls, missed calls, the caller's message instead of voicemail, block and VIP lists, caller rules).
+  - `osmo-customer-service-calls`: call a company's customer care line, get through the phone menu, wait on hold and bring back the answer.
+  - `osmo-book-by-phone`: restaurant reservations and appointments made, moved or cancelled by a phone call.
+- Call-screening, spam-call, customer-service and reservation keywords in the plugin manifests.
+
 ## 1.5.0
 
 - Describes MCP release 12: a live call card in AI apps that show MCP Apps cards (such as Claude) — Confirm, the call's progress, summary, recording player, Call again / Schedule; up to 5 calls placed together in one card.

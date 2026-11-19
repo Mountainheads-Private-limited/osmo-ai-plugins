@@ -27,7 +27,11 @@
         "booking",
         "appointments",
         "ai-receptionist",
-        "answering-service"
+        "answering-service",
+        "call-screening",
+        "spam-calls",
+        "customer-service",
+        "reservations"
       ],
       "category": "productivity"
     }
