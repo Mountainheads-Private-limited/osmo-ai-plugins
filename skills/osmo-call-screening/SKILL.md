@@ -1,7 +1,7 @@
 ---
 name: osmo-call-screening
 description: "Call screening AI for your own phone number: OsmO's AI answers the calls you forward to it, screens spam calls and robocalls, takes the message instead of voicemail, and tells you who called and why. Use when the user wants to screen calls, stop answering spam calls, see missed calls, read a caller's message, or block or let through specific numbers. From the AI app: list missed and screened calls with summaries, transcripts and recordings, edit the block list and VIP list, add rules for a caller (put through, take a message, block), pause the AI, choose who is put through live, and call a caller back. Works with the user's existing mobile number through call forwarding. Needs an OsmO app plan."
-version: 1.0.0
+version: 1.0.1
 metadata: {"homepage":"https://getosmo.app","emoji":"🛡️"}
 ---
 
