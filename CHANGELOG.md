@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+- Every `SKILL.md` now passes the Agent Skills spec checker (LGTM): descriptions with a colon are quoted, `metadata` values are plain strings, and the block/VIP list step no longer reads like a read-then-send chain.
+
 ## 1.6.0
 
 - Three new skills, one job each, on the same OsmO MCP server and sign-in:
