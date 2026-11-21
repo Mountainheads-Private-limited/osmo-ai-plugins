@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0
+
+- `osmo-ai-receptionist` now connects to OsmO's dedicated receptionist server, `https://api.getosmo.app/mcp/receptionist` (server name `osmo-receptionist`, so it can sit next to `osmo` in the same client). It adds `missed_calls`, `call_back` (call back someone who called you in the last 30 days, preview first) and `screen_caller` (block or always put through a caller from one of their calls).
+
 ## 1.6.1
 
 - Every `SKILL.md` now passes the Agent Skills spec checker (LGTM): descriptions with a colon are quoted, `metadata` values are plain strings, and the block/VIP list step no longer reads like a read-then-send chain.
