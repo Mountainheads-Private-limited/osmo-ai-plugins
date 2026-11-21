@@ -1,14 +1,14 @@
 {
   "name": "osmo",
   "displayName": "OsmO Phone Calls",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "OsmO Phone Calls: AI makes real phone calls for you and answers your calls as your AI phone receptionist. Call businesses, helplines or up to 5 numbers at once; book, reschedule, ask, get through phone menus and wait on hold; get the summary, transcript and recording link. A live call card (in apps that show cards) follows up to 5 calls at once, with Call again and Schedule; times are in your own time zone. Every call is confirmed by you first. Receptionist: see who called, pause the AI, choose who is put through, VIP and block lists, caller rules, assistant language, bookings. 50 free credits in the US, Canada, UK and Australia call businesses and toll-free numbers; calling contacts, call-backs, scheduling and the receptionist need an OsmO app plan.",
   "author": {
     "name": "OsmO AI",
     "url": "https://getosmo.app"
   },
   "homepage": "https://getosmo.app/for-my-ai",
-  "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+  "repository": "https://github.com/getosmo/osmo-ai-plugins",
   "license": "MIT",
   "keywords": [
     "phone",

@@ -6,7 +6,7 @@
   "version": "1.5.0",
   "websiteUrl": "https://getosmo.app/for-my-ai",
   "repository": {
-    "url": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+    "url": "https://github.com/getosmo/osmo-ai-plugins",
     "source": "github"
   },
   "icons": [

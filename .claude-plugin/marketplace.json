@@ -17,7 +17,7 @@
         "url": "https://getosmo.app"
       },
       "homepage": "https://getosmo.app/for-my-ai",
-      "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+      "repository": "https://github.com/getosmo/osmo-ai-plugins",
       "license": "MIT",
       "keywords": [
         "phone",

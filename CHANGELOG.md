@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.1
+
+- The repo now lives in the official **getosmo** GitHub organization (`github.com/getosmo/osmo-ai-plugins`); the old `Mountainheads-Private-limited/osmo-ai-plugins` address redirects. Every manifest's `repository` points at the new address.
+- `grok/osmo/` is the Grok Build plugin (MCP server + skill), referenced by the xAI plugin marketplace by URL and pinned commit.
+
 ## 1.7.0
 
 - `osmo-ai-receptionist` now connects to OsmO's dedicated receptionist server, `https://api.getosmo.app/mcp/receptionist` (server name `osmo-receptionist`, so it can sit next to `osmo` in the same client). It adds `missed_calls`, `call_back` (call back someone who called you in the last 30 days, preview first) and `screen_caller` (block or always put through a caller from one of their calls).
