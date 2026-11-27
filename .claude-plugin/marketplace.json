@@ -1,6 +1,6 @@
 {
   "name": "osmo",
-  "description": "OsmO AI's plugin marketplace: OsmO Phone Calls and AI receptionist.",
+  "description": "OsmO AI's plugin marketplace: OsmO Phone Calls and AI Receptionist.",
   "owner": {
     "name": "OsmO AI",
     "email": "team@getosmo.app",
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "osmo",
-      "displayName": "OsmO Phone Calls",
+      "displayName": "OsmO Phone Calls & AI Receptionist",
       "source": "./",
       "description": "OsmO's AI makes real phone calls for you and answers your calls as your AI phone receptionist. Call businesses and helplines, follow each call on a live call card (in apps that show cards) and get the summary, transcript and recording, with Call again or Schedule; see who called, manage caller rules, VIP and block lists and bookings. Every call is confirmed by you first. Sign in with your phone number; no API key.",
       "author": {
@@ -31,7 +31,14 @@
         "call-screening",
         "spam-calls",
         "customer-service",
-        "reservations"
+        "reservations",
+        "call",
+        "phone-call",
+        "make-phone-calls",
+        "receptionist",
+        "AI receptionist",
+        "phone call",
+        "ai-phone-call"
       ],
       "category": "productivity"
     }
