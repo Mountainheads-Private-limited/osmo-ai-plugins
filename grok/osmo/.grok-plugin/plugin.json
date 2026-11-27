@@ -13,7 +13,10 @@
     "osmo ai",
     "osmo phone calls",
     "getosmo",
-    "osmo call"
+    "osmo call",
+    "osmo receptionist",
+    "osmo ai receptionist",
+    "osmo phone"
   ],
   "logo": "assets/logo.png"
 }
