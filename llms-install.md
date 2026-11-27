@@ -1,6 +1,6 @@
-# Installing OsmO Phone Calls (for AI agents such as Cline)
+# Installing OsmO Phone Calls & AI Receptionist (for AI agents such as Cline)
 
-OsmO Phone Calls is a hosted remote MCP server. There is nothing to clone, build or run. Your client
+OsmO Phone Calls & AI Receptionist is a hosted remote MCP server. There is nothing to clone, build or run. Your client
 connects to `https://api.getosmo.app/mcp` over Streamable HTTP. Then OsmO's voice AI can place real
 phone calls for the user and read back the outcome, summary, transcript and recording link, and
 the user can run their OsmO AI phone receptionist (who called, pause the AI, put-through, VIP and block
@@ -39,6 +39,12 @@ Call `osmo_help`. It is read-only and places no call. It lists what this account
 **Do not call `place_call` as a test.** A confirmed call rings a real phone and uses credits.
 `place_call` without `confirmed: true` only returns a preview. Show that preview to the user and send
 `confirmed: true` only after they say yes. Keep `autoApprove` empty so the user approves each call.
+
+
+## Directory listings
+
+- Official MCP Registry: [`app.getosmo/phone-calls`](https://registry.modelcontextprotocol.io/v0.1/servers/app.getosmo%2Fphone-calls/versions/latest) and [`app.getosmo/ai-receptionist`](https://registry.modelcontextprotocol.io/v0.1/servers/app.getosmo%2Fai-receptionist/versions/latest)
+- Glama: [AI Phone Calls & AI Receptionist](https://glama.ai/mcp/connectors/app.getosmo/phone-calls), [AI Receptionist & Answering Service](https://glama.ai/mcp/connectors/app.getosmo/ai-receptionist)
 
 ## Notes
 
